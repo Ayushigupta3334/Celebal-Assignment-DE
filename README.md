@@ -27,9 +27,9 @@ Additionally, **dresses.csv** was explored to practice data handling across diff
 
 ## Repository Structure
 
-datasets/
-cleaned_datasets/
-notebook/
+DataSets/
+Cleaned_DataSets/
+Notebook/
 README.md
 
 ## Technologies Used
