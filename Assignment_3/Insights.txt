@@ -1,6 +1,6 @@
 Customer Sales Insights – Detailed Summary
 
-This project focused on analyzing the Superstore dataset using SQL techniques such as Subqueries, Common Table Expressions (CTEs), Window Functions, and Joins. The dataset was first organized into separate customer, order, and product tables to improve data management and reduce redundancy. This structure made it easier to perform customer-focused sales analysis and generate meaningful business insights.
+This assignment focused on analyzing the Superstore dataset using SQL techniques such as Subqueries, Common Table Expressions (CTEs), Window Functions, and Joins. The dataset was first organized into separate customer, order, and product tables to improve data management and reduce redundancy. This structure made it easier to perform customer-focused sales analysis and generate meaningful business insights.
 
 The analysis began by identifying orders with sales values greater than the overall average sales. This helped highlight high-value transactions that contributed significantly to the company's revenue. The highest sales order for each customer was also determined, providing insight into each customer's maximum purchasing capacity and spending behavior.
 
