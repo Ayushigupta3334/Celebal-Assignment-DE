@@ -1,0 +1,15 @@
+Customer Sales Insights – Detailed Summary
+
+This project focused on analyzing the Superstore dataset using SQL techniques such as Subqueries, Common Table Expressions (CTEs), Window Functions, and Joins. The dataset was first organized into separate customer, order, and product tables to improve data management and reduce redundancy. This structure made it easier to perform customer-focused sales analysis and generate meaningful business insights.
+
+The analysis began by identifying orders with sales values greater than the overall average sales. This helped highlight high-value transactions that contributed significantly to the company's revenue. The highest sales order for each customer was also determined, providing insight into each customer's maximum purchasing capacity and spending behavior.
+
+Using Common Table Expressions (CTEs), total sales were calculated for every customer. This aggregation revealed the overall contribution of each customer to business revenue. Further analysis identified customers whose total sales exceeded the average customer sales, helping distinguish high-performing customers from the rest of the customer base.
+
+Window Functions were used to rank customers according to their total sales and to assign row numbers to orders within each customer group. These techniques enabled a detailed comparison of customer performance and made it possible to identify the most valuable customers based on revenue generation. The ranking analysis showed that a relatively small number of customers contributed a substantial share of total sales, emphasizing the importance of customer retention and relationship management.
+
+The business-focused customer insights provided additional valuable findings. The top five customers generated significantly higher sales than the average customer, making them key contributors to business success. Conversely, the bottom five customers contributed very little revenue, indicating potential opportunities for targeted marketing and engagement strategies. The analysis also identified customers who placed only one order, suggesting possible areas where customer retention initiatives could improve repeat purchases.
+
+Additionally, the highest order value placed by each customer was examined to better understand purchasing behavior and spending patterns. Customers with exceptionally large individual orders may represent important business relationships or high-value market segments.
+
+Overall, this project demonstrates how SQL can be used to transform raw transactional data into actionable business insights. Through the application of Subqueries, CTEs, Window Functions, and Joins, meaningful information about customer behavior, sales performance, and revenue contribution was extracted. These insights can support data-driven decision-making, customer segmentation, sales strategy development, and long-term business growth.
