@@ -1,0 +1,157 @@
+# Azure Data Factory Week 4 Summary
+
+## Task 1: Resource Group Creation
+
+* Logged into Azure Portal.
+* Created a new Resource Group.
+* Resource Group acts as a container for all Azure resources used in the project.
+
+**Output:** Resource Group created successfully.
+
+---
+
+## Task 2: Storage Setup
+
+* Created an Azure Storage Account.
+* Created a Blob Container (`input-data`).
+* Uploaded a CSV file into the container.
+
+**Output:** CSV file stored in Azure Blob Storage.
+
+---
+
+## Task 3: Azure Data Factory Basics
+
+### Linked Service
+
+* Created a Linked Service connecting Azure Data Factory to Azure Blob Storage.
+
+### Datasets
+
+* Created:
+
+  * Source Dataset (CSV file in Blob Storage)
+  * Destination Dataset (Output location)
+
+### Get Metadata Activity
+
+* Added Get Metadata activity.
+* Validated:
+
+  * File existence
+  * File size
+  * Last modified date
+
+**Output:** Metadata successfully retrieved from source file.
+
+---
+
+## Task 4: Pipeline Development
+
+* Created a pipeline named `CopyCSVPipeline`.
+* Added Copy Data activity.
+* Configured:
+
+  * Source Dataset
+  * Destination Dataset
+
+**Output:** Pipeline design completed.
+
+---
+
+## Task 5: Pipeline Execution
+
+* Executed pipeline using Debug/Trigger.
+* Verified successful execution.
+
+**Output:** Pipeline status = **Succeeded**.
+
+---
+
+## Task 6: IAM Role Assignment
+
+Assigned required permissions:
+
+* Reader
+* Contributor
+* Storage Blob Data Contributor
+
+Configured access between Azure Data Factory and Storage Account.
+
+**Output:** Role assignments completed successfully.
+
+---
+
+# Mini Project Summary
+
+## Problem Statement
+
+Build a complete Azure Data Factory pipeline that reads a CSV file from Blob Storage, validates metadata, and copies data to a new location.
+
+---
+
+## Components Used
+
+### Source
+
+* CSV file stored in Azure Blob Storage.
+
+### Linked Service
+
+* Connection between ADF and Storage Account.
+
+### Datasets
+
+* Source Dataset
+* Destination Dataset
+
+### Activities
+
+1. **Get Metadata**
+
+   * Checked file existence
+   * Retrieved file size
+   * Retrieved last modified timestamp
+
+2. **Copy Data**
+
+   * Copied data from source CSV
+   * Stored output in destination folder/file
+
+---
+
+## Workflow
+
+```text
+Source CSV
+      │
+      ▼
+Get Metadata
+      │
+      ▼
+Copy Data
+      │
+      ▼
+Destination CSV
+```
+
+---
+
+## Expected Output Achieved
+
+✅ Pipeline executed successfully
+
+✅ Metadata validated
+
+✅ Data copied to destination
+
+✅ Output file generated in Blob Storage
+
+---
+
+## Conclusion
+
+An end-to-end Azure Data Factory ETL pipeline was successfully developed. The solution connected Azure Blob Storage through Linked Services, 
+validated source file metadata using Get Metadata activity, copied data using Copy Data activity, and generated the output file in the destination
+location with successful pipeline execution.
+
