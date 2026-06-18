@@ -135,6 +135,7 @@ INSERT INTO order_items VALUES
 (5014, 1010, 206, 1, 1299.00, 0), 
 
 -- =========================================
+# SECTION-A
 -- Q1. Display all columns and rows from the customers table
 -- =========================================
 
@@ -178,6 +179,7 @@ VALUES
 
 
 -- =========================================
+# SECTION - B
 -- Q7. Retrieve all orders with status = 'Delivered'.
 -- =========================================
 
@@ -233,6 +235,7 @@ SELECT *
 FROM customers
 WHERE EXTRACT(YEAR FROM join_date) = 2024;
 -- =========================================
+# SECTION - C
 -- Q13. Count the total number of orders
 -- in the orders table.
 -- =========================================
@@ -290,6 +293,7 @@ FROM products
 GROUP BY category
 HAVING AVG(unit_price) > 2000;
 -- =========================================
+# SECTION - D
 -- Q19. Display each order along with the
 -- customer's first_name and last_name.
 -- =========================================
@@ -347,6 +351,7 @@ ON c.customer_id = o.customer_id;
 -- in the schema.
 -- =========================================
 -- =========================================
+# SECTION - E
 -- Q24. Classify products into price tiers
 -- using CASE.
 -- =========================================
