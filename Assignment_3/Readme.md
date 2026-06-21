@@ -1,3 +1,4 @@
+# Week_3
 # Customer Sales Insights Using SQL
 
 ## Overview
