@@ -1,0 +1,11 @@
+table,issue,count
+customers,Duplicate Rows,5
+customers,Invalid Emails,10
+products,Duplicate Rows,0
+orders,Duplicate Rows,10
+orders,Null Customer IDs,50
+orders,Invalid Dates,55
+order_items,Duplicate Rows,20
+order_items,Negative Quantity,90
+order_items,Discount >100,19
+order_items,Invalid Order IDs,340
